@@ -17,9 +17,9 @@ import os
 from datetime import datetime
 
 settings = {
-    'url': 'https://nokia.sharepoint.com/sites/SageDS',
-    'username': 'svcsage@nokia.onmicrosoft.com',
-    'password': 'sage12345!'
+    'url': 'url',
+    'username': 'user_name',
+    'password': 'pwd'
 }
 SMTP_Server = {
     'smtp_server': "smtp.office365.com",
