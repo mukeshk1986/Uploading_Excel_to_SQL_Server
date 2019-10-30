@@ -24,22 +24,22 @@ settings = {
 SMTP_Server = {
     'smtp_server': "smtp.office365.com",
     'port': '587',  # for Starttls
-    'sender_email': "analytics.sage.ext@nokia.com",
-    'password': "Nokia123"
+    'sender_email': "*****@abc.com",
+    'password': "*****"
 }
 
 sql_db_settings = {
-    'SAGE_ETL_DB_HOST': '10.76.62.204',
+    'SAGE_ETL_DB_HOST': 'hostname',
     'SAGE_Test_DBNAME': 'MUKESH_DEV',
-    'SAGE_STG_DBNAME': 'SAGESTG',
-    'SAGE_DB_USER': 'sage_etl_rw',
-    'SAGE_DB_PASS': 'wR@st1eNg'
+    'SAGE_STG_DBNAME': 'DBName',
+    'SAGE_DB_USER': 'user',
+    'SAGE_DB_PASS': 'password'
 }
 
 log_settings = {
     'batch_id': 1,
     'phase_id': 2,
-    'user_name': 'sage_etl_rw'
+    'user_name': 'user_db'
 }
 
 Project_Name='OPEX' #Project Name parameter for V_Files_View
